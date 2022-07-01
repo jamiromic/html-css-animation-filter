@@ -4,7 +4,7 @@
     border: 1px solid red;
 }
 
-.ex-1-square:hover{
+.ex-1-square:hover {
     background-color: red;
     transition: 3s;
 }
@@ -14,22 +14,57 @@
     height: 100px;
     background: red;
 }
+
+.ex-2-square:active {
+    width: 100%;
+    transition: 3s;
+
+}
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+.ex-3-square:hover {
+    border-radius: 100%;
+    transition: 3s;
+}
+
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+.ex-4-square:hover {
+    background: none;
+    transition: 3s;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+
+.ex-5-square:hover {
+    transform: scale(2);
+    transition: 1s;
+}
+
+.ex-5-square:active {
+    transition: 1s;
+    transform: scale(0.5);
+}
+
+
+
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
