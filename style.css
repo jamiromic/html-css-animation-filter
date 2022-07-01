@@ -69,10 +69,39 @@
     width: 500px;
 }
 
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover{
+    filter: saturate(0.5);
+    filter: sepia(0.5);
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    border-radius: 6%;
+    filter: grayscale(5);
+    filter: sepia(0.5);
+    transition: 2s;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover {
+    border-radius: 6%;
+    filter: grayscale(5);
+    filter: sepia(1.0);
+    transform: scale(1.5);
+    transition: 2s;
+
+}
+
+
+
 .ex-10-icon {
     font-size: 60px;
 }
