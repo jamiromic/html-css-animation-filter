@@ -101,13 +101,46 @@
 }
 
 
-
 .ex-10-icon {
     font-size: 60px;
 }
+
+.ex-10-icon {
+    animation: fast 1s linear infinite;
+}
+
+@keyframes fast {
+
+    0% {transform: rotate(1turn);}
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: fastinverse 3s linear;
+
+}
+
+@keyframes fastinverse {
+
+    0% {
+        
+        transform: rotate(0);
+    
+    }
+
+    80% {
+        transform: rotate(360deg);
+
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
