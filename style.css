@@ -170,3 +170,117 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: movebartop 3s linear;
+}
+
+@keyframes movebartop {
+
+    0% {
+        left: 10%;
+    }
+
+    50%{
+        left: calc(100% - 60px);
+    }
+
+    100%{
+        left: 10%;
+    }
+    
+}
+
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: movebarbottom 3s linear;
+}
+
+@keyframes movebarbottom {
+
+    0% {
+        right: 10%;
+    }
+
+    50%{
+        right: calc(100% - 60px);
+    }
+
+    100%{
+        right: 10%;
+    }
+    
+
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: movebartopinfinite 3s linear;
+}
+
+@keyframes movebartopinfinite {
+
+    0% {
+        left: 10%;
+        top: -10px
+    }
+
+    25%{
+        left: calc(100% - 20px);
+        top: -10px;
+    }
+
+    50%{
+        left: calc(100% - 20px);
+        top: 100%;
+    }
+
+    75%{
+        left: 0;
+        top: 100%;
+
+    }
+
+
+    100%{
+        left: 10%;
+        top: -10%;
+    }
+    
+
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: movebarbottominfinite 3s linear;
+}
+
+@keyframes movebarbottominfinite {
+
+    0% {
+        bottom: -10%;
+        right: 20px;
+    }
+
+    25%{
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+
+    50%{
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+
+    75%{
+        right: 0;
+        bottom: 100%;
+
+    }
+
+
+    100%{
+        bottom: -10%;
+        right: 20%;
+    }
+    
+
+}
